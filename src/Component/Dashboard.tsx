@@ -1,8 +1,18 @@
-const Dashboard=()=>{
+import { GoogleLogin } from "@react-oauth/google";
+import GoogleLoginCustom from "./GoogleLoginCustom";
+
+  const Dashboard=()=>{
+   
     return(
-        <>
-        <h1>Dashboard</h1>
-        </>
+        <div>
+         
+     
+         <h2>React Google Login</h2>
+         <GoogleLoginCustom />
+
+        
+      </div>
+        
     )
 
 }
